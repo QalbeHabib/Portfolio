@@ -179,7 +179,7 @@ margin-bottom: var(--mb-3);
 .nav__logo,
 .nav__toggle{
     color: var(--title-color);
-    font-weight: var(--font-medium) ;
+    font-weight: var(--font-semi-bold) ;
     font-size: 1.5rem;
 }
 .nav__logo:hover{
@@ -400,8 +400,8 @@ color: var(--first-color);
 .about__data{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .about__info-title{
@@ -1133,7 +1133,7 @@ padding: 6rem 0 2rem;
 }
 
 .qualification__tabs{
-    justify-content: center;
+    justify-content: space-evenly;
 
 }
 .qualification__button{
